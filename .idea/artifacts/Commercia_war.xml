@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Commercia:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Commercia</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Commercia-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Commercia:war exploded" />
+    </root>
+  </artifact>
+</component>
